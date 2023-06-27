@@ -1,0 +1,14 @@
+Host prodproxy
+  HostName 34.193.207.120
+  IdentityFile ~/.ssh/proxy_rsa
+  User smbogo
+
+Host qaproxy
+  HostName api.qa.perchsecurity.com
+  IdentityFile ~/.ssh/proxy_rsa
+  User smbogo
+
+Host prodjenkins
+  HostName jenkins.perchsecurity.com
+  IdentityFile ~/.ssh/proxy_rsa
+  User smbogo
