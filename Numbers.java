@@ -7,7 +7,7 @@ public class Numbers {
     }
 
     public static void exerciseFour(int number) {
-        if (number == 16) { // this may not work as expected
+        if (number == 16) {
             System.out.println("16!");
         } else if (number >= 20) {
             System.out.println("20 or greater!");
